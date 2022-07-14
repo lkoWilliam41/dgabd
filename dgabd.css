@@ -1,0 +1,8 @@
+.menu{
+    padding: -10px 20px !important;
+    border-radius:10px;
+}
+
+.menu:hover{
+    background-color: rgba(128, 128, 128, 0.075);
+}
