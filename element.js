@@ -72,6 +72,6 @@ var topbar = `<header>
 </header>`
 
 
-headers.innerHTML= topbar;
+headers.innerHTML = topbar;
 
 console.log('samuel')
