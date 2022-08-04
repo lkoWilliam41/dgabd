@@ -12,7 +12,7 @@ var topbar = `<header>
                     <div class="col-lg-8">
                         <div class="header-info-left">
                             <ul>
-                                <li>info@dgda.com</li>
+                                <li>info@dgbda.com</li>
                                 <li>074 57 00 40</li>
                                 <li>Libreville</li>
                             </ul>
@@ -45,7 +45,7 @@ var topbar = `<header>
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.html" class="menu">Acceuil</a></li>
+                                    <li><a href="index.html" class="menu">Accueil</a></li>
                                     <li><a href="actualite.html" class="menu">Actualité</a></li>
                                     <li><a href="archives.html" class="menu">Services</a>
                                         <ul class="submenu">
@@ -97,12 +97,13 @@ var bas = ` <footer>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
                 <div class="single-footer-caption mb-50">
                     <div class="footer-tittle">
-                        <h4>Quick Links</h4>
+                        <h4>Liens utiles</h4>
                         <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#"> Offers & Discounts</a></li>
-                            <li><a href="#"> Get Coupon</a></li>
-                            <li><a href="#"> Contact Us</a></li>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Actualité</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#"> Contactez-nous</a></li>
+                            <li><a href="#">À propos de nous</a></li>
                         </ul>
                     </div>
                 </div>
@@ -110,12 +111,11 @@ var bas = ` <footer>
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-7">
                 <div class="single-footer-caption mb-50">
                     <div class="footer-tittle">
-                        <h4>New Products</h4>
+                        <h4>Services</h4>
                         <ul>
-                            <li><a href="#">Woman Cloth</a></li>
-                            <li><a href="#">Fashion Accessories</a></li>
-                            <li><a href="#"> Man Accessories</a></li>
-                            <li><a href="#"> Rubber made Toys</a></li>
+                            <li><a href="#">Archives</a></li>
+                            <li><a href="#">Bibliothèque</a></li>
+                            <li><a href="#">Documentation</a></li>
                         </ul>
                     </div>
                 </div>
@@ -125,11 +125,8 @@ var bas = ` <footer>
                     <div class="footer-tittle">
                         <h4>Support</h4>
                         <ul>
-                            <li><a href="#">Frequently Asked Questions</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Report a Payment Issue</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Termes & Conditions</a></li>
                         </ul>
                     </div>
                 </div>
