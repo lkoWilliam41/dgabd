@@ -56,7 +56,7 @@ var topbar = `<header>
                                     </li>
                                     <li><a href="apropos.html" class="menu">A propos de Nous</a></li>
                                     <li><a href="contact.html" class="menu">Contactez Nous</a></li>
-                                    <button style="margin-left: 15px;" class="n btn-outline-primary menu">Connexion</button>
+                                    <button style="margin-left: 15px;"  class="n btn-outline border-btn">Connexion</button>
                                 </ul>
                             </nav>
                         </div>
