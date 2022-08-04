@@ -161,7 +161,7 @@ var bas = ` <footer>
 <!-- Footer End-->
 </footer>`
 
-headers.innerHTML= topbar;
+headers.innerHTML = topbar;
 footer.innerHTML = bas;
 
 console.log('samuel')
