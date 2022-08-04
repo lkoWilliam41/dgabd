@@ -1,0 +1,272 @@
+/* Login */
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Design bleu */
+.login .ball{
+    height: 32em;
+    width: 24em;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #016FB9;
+    top: -15em;
+    left: -12em;
+    transform: rotate(75deg);
+    animation: ballAnimation 6s infinite ease-in-out;
+}
+.login .ball2{
+    height: 32em;
+    width: 24em;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #016FB9;
+    bottom: -15em;
+    right: -12em;
+    transform: rotate(75deg);
+    animation: ballAnimation2 6s infinite ease-in-out;
+}
+
+@keyframes ballAnimation {
+    0%{top:-15em}
+    40%{top:-12em}
+    50%{top:-12em}
+    100%{top:-15em}
+}
+@keyframes ballAnimation2 {
+    0%{right:-12em}
+    60%{right:-10em}
+    60%{right:-10em}
+    90%{right:-12em}
+    100%{right:-12em}
+}
+
+/* Formulaire */
+
+.form{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    background-color: #3E3E3E;
+    height: 70vh;
+    border-radius: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+    
+    margin-top: -4em;
+}
+.form h1{
+    font-weight: 400;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.form form{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Les inputs email et mot de passe */
+.form form .input{
+    margin-bottom: 3em;
+    height: 2em;
+    padding: 8px 5px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid rgb(137, 136, 136);
+    outline: none;
+    color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form .foot{
+    margin-top: -2em;
+
+}
+.form form .input::placeholder{
+    color: white;
+    margin-left: 1em;
+    transform: translateY(-2em);
+
+}
+.form form label{
+    color: white;
+}
+/* Button */
+.form form button{
+    width: 8.5em;
+    padding: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #016FB9;
+    background-color: #016FB9;
+    color: white;
+    margin-top: -2em;
+    display: block;
+}
+
+/* Section checkbox */
+.form form .jaccepte{
+    color: #016FB9;
+    margin-top: -5em;
+}
+.form form .jaccepte2{
+    color: #016FB9;
+    margin-top: -1.5em;
+    margin-bottom: 1em;
+    display: block;
+    margin-left: 1.5em;
+}
+.form form .inscrit{
+    margin-left: 1.5em;
+    margin-top: -5em;
+}
+.form form .inscrit a{
+    text-decoration: none;
+    color: #016FB9;
+    margin-top: -5em;
+}
+.foot2{
+    margin-top: -3em;
+}
+
+/* Media Query 1040px */
+
+@media screen and (max-width: 1040px) {
+
+    .form form{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .foot{
+        margin-top: 15em;
+    }
+
+    .form form .inscrit a{
+        text-decoration: none;
+        color: #016FB9;
+        margin-left: 0em;
+        transform: translateY(0.5em);
+        display: inline-block;
+    }
+
+    
+    .form form .input{
+        margin-bottom: 3.5em;
+        height: 2em;
+        padding: 8px 5px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1.5px solid rgb(137, 136, 136);
+        outline: none;
+        color: white;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    /* Formulaire */
+
+    .form{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        background-color: #3E3E3E;
+        height: 75vh;
+        border-radius: 2px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        z-index: 1;
+    
+    }
+
+    /* Button */
+    .form form button{
+        width: 8.5em;
+        padding: 8px 0;
+        border-radius: 4px;
+        border: 1px solid #016FB9;
+        background-color: #016FB9;
+        color: white;
+        margin-top: 0.5em;
+    }
+}
+
+/* Media Query 600px */
+
+@media screen and (max-width: 600px) {
+
+    .form form{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form form .inscrit a{
+        text-decoration: none;
+        color: #016FB9;
+        margin-left: 0em;
+    }
+
+    .form form .input{
+        margin-bottom: 3.5em;
+        height: 2em;
+        padding: 8px 5px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1.5px solid rgb(137, 136, 136);
+        outline: none;
+        color: white;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    /* Formulaire */
+
+    .form{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        background-color: #3E3E3E;
+        height: 70vh;
+        border-radius: 2px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        z-index: 1;
+    
+    }
+
+    /* Button */
+    .form form button{
+    width: 8.5em;
+    padding: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #016FB9;
+    background-color: #016FB9;
+    color: white;
+    transform: translateY(-2.5em);
+    }
+
+    .foot{
+        transform: translateY(-1.5em);
+    }
+}
