@@ -31,3 +31,7 @@
     outline: none;
     border-radius: 7px;
 }
+
+.services-section{
+    transform: translate(9em,2em);
+}
