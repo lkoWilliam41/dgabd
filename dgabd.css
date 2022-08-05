@@ -7,9 +7,9 @@
     background-color: rgba(128, 128, 128, 0.075);
 }
 
-/* .header-image {
+.header-image {
     background-image: url('./archive-3859388_1920.jpg') !important;
-} */
+}
 
 #barderecherche {
     width: 850px;
@@ -68,7 +68,3 @@
 }
 
 
-.contact-us-banner{
-    width: auto;
-    height: 100%;
-}
