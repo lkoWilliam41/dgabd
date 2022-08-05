@@ -1,0 +1,44 @@
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.parent{
+
+ 
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: cadetblue;
+    box-sizing: border-box;
+
+ 
+    
+}
+.enfant{
+    
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 35px cadetblue;
+    animation:  paren 2s infinite ease-in-out;
+    transition: all 1s;
+    opacity: 1;
+
+
+
+    
+}
+
+@keyframes parent {
+    0%{box-shadow: 0px 0px 0px 0px cadetblue ;}
+    60%{box-shadow: 0px 0px 0px 0px cadetblue ; opacity: 1} 
+    70%{box-shadow: 0px 0px -1px 35px cadetblue ; opacity: 1; }
+    100%{box-shadow: 0px 0px -1px 35px cadetblue ; opacity: 0;
+    width: 6em;
+    height: 6em;
+    }
+}

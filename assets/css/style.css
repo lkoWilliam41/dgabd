@@ -474,6 +474,15 @@ hr {
     margin: 0
 }
 
+.border-btn:hover{
+    color: #ffffff;
+}
+
+.inscription:hover{
+    background-color: #ffffff !important;
+    color: #014b85 !important;
+}
+
 .border-btn::before {
     border: 2px solid transparent;
     content: "";
@@ -6365,6 +6374,7 @@ form.search-box .search-form a {
     color: #001f38;
     line-height: 1.4
 }
+
 
 .section-tittle h2 {
     color: #191d34;

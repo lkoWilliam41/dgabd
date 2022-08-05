@@ -12,7 +12,7 @@ var topbar = `<header>
                     <div class="col-lg-8">
                         <div class="header-info-left">
                             <ul>
-                                <li>info@dgbda.com</li>
+                                <li>archive22@gmail.com</li>
                                 <li>074 57 00 40</li>
                                 <li>Libreville</li>
                             </ul>
@@ -54,9 +54,10 @@ var topbar = `<header>
                                             <li><a href="documentation.html">Documentation</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="apropos.html" class="menu">À propos de nous</a></li>
-                                    <li><a href="contact.html" class="menu">Contactez-nous</a></li>
-                                    <button class="n btn-outline-primary">Connexion</button>
+                                    <li><a href="apropos.html" class="menu">A propos de Nous</a></li>
+                                    <li><a href="contact.html" class="menu">Contactez-Nous</a></li>
+                                    <button style="margin-left: 15px; background-color: #014b85; color:#ffffff" class="n btn-outline border-btn inscription">Inscription</button>
+                                    <button style="margin-left: 15px;" class="n btn-outline border-btn">Connexion</button>
                                 </ul>
                             </nav>
                         </div>
@@ -75,7 +76,7 @@ var topbar = `<header>
 
 var bas = ` <footer>
 <!-- Footer Start-->
-<div class="footer-area footer-padding footer-bg" data-background="assets/img/service/b.png">
+<div class="footer-area footer-padding footer-bg" style="background : url(assets/img/service/b.png); background-size: cover">
     <div class="container">
         <div class="row d-flex justify-content-between">
             <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
@@ -161,7 +162,7 @@ var bas = ` <footer>
 <!-- Footer End-->
 </footer>`
 
-headers.innerHTML= topbar;
+headers.innerHTML = topbar;
 footer.innerHTML = bas;
 
 console.log('samuel')
