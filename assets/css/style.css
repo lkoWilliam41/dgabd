@@ -478,6 +478,11 @@ hr {
     color: #ffffff;
 }
 
+.inscription:hover{
+    background-color: #ffffff !important;
+    color: #014b85 !important;
+}
+
 .border-btn::before {
     border: 2px solid transparent;
     content: "";
