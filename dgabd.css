@@ -35,3 +35,34 @@
 .services-section{
     transform: translate(9em,2em);
 }
+
+.contact-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.529);
+}
+
+.log img{
+    width: 110px;   
+}
+
+.footer-log img{
+    width: 100px;
+    border-radius: 50%;   
+}
+
+
+/* .contact-banner-image{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.389);
+
+} */
+
+.contact-img-banner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.673);
+}
