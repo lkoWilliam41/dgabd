@@ -36,8 +36,8 @@ var topbar = `<header>
                 <div class="row align-items-center">
                     <!-- Logo -->
                     <div class="col-xl-2 col-lg-2 col-md-1">
-                        <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                        <div class="log">
+                            <a href="index.html"><img  src="assets/img/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10">
@@ -82,7 +82,7 @@ var bas = ` <footer>
                 <div class="single-footer-caption mb-50">
                     <div class="single-footer-caption mb-30">
                         <!-- logo -->
-                        <div class="footer-logo">
+                        <div class="footer-log">
                             <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                         </div>
                         <div class="footer-tittle">
