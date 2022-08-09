@@ -97,9 +97,9 @@ var bas = ` <footer>
             </div>
             <div class="col-xl-2 col-lg-3 col-md-3 col-sm-5">
                 <div class="single-footer-caption mb-50">
-                    <div class="footer-tittle">
+                    <div  class="footer-tittle">
                         <h4>Liens utiles</h4>
-                        <ul>
+                        <ul >
                             <li><a href="#">Accueil</a></li>
                             <li><a href="#">Actualité</a></li>
                             <li><a href="#">Services</a></li>

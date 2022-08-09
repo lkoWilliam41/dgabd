@@ -68,3 +68,48 @@
 }
 
 
+/* CSS POUR MODIFIER LA POLICE À LA BANNIER DE L'ACCUEIL */
+
+
+/* @font-face {
+    font-family: 'Optimus';
+    src: url('./OptimusPrincepsSemiBold.ttf');
+} */
+
+
+.text-header-banner{
+    font-family: 'Montserrat'!important;
+    font-size: 70px !important;
+    
+    /* letter-spacing: -4.8px; */
+
+}
+
+
+
+@font-face {
+    font-family: 'optimusprincepssemiboldRg';
+    src: url('optimusprincepssemibold-webfont.woff2') format('woff2'),
+         url('optimusprincepssemibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* @font-face {
+    font-family: 'ventura_timesregular';
+    src: url('ventura_times-webfont.woff2') format('woff2'),
+         url('ventura_times-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+
+.services-p-section{
+    text-align: center;
+}
+
+
+
+
