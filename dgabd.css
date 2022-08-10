@@ -7,6 +7,11 @@
     background-color: rgba(128, 128, 128, 0.075);
 }
 
+.n{
+    position: relative;
+    top: 20px;
+}
+
 .header-image {
     background-image: url('./archive-3859388_1920.jpg') !important;
 }
