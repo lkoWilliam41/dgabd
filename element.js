@@ -56,8 +56,8 @@ var topbar = `<header>
                                     </li>
                                     <li><a href="apropos.html" class="menu">À propos de Nous</a></li>
                                     <li><a href="contact.html" class="menu">Contactez-Nous</a></li>
-                                    <button style="margin-left: 15px; background-color: #014b85; color:#ffffff" class="n btn-outline border-btn inscription">Inscription</button>
-                                    <button style="margin-left: 15px;" class="n btn-outline border-btn">Connexion</button>
+                                    <a style="margin-left: 15px; background-color: #014b85; color:#ffffff" class="n btn-outline border-btn inscription" href="inscription.html">Inscription</a>
+                                    <a style="margin-left: 15px;" class="n btn-outline border-btn" href="connexion.html">Connexion</a>
                                 </ul>
                             </nav>
                         </div>
