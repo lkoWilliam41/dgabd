@@ -7211,3 +7211,22 @@ form.search-box .search-form a {
 html{
     overflow-x: hidden;
 }
+
+/* Classe card version mobile */
+.article .card{
+    width: 60%;
+}
+.articleh1 h1{
+    width: 61%;
+}
+
+/* Classe card version mobile */
+@media screen and (max-width: 968px){
+    .article .card{
+        width: 90%;
+    }
+    .articleh1 h1{
+        width: 90%;
+        margin-top: -1em;
+    }
+}

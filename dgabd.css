@@ -63,6 +63,29 @@
     width: 110px;   
 }
 
+
+.nosdirecteurs{
+    position: relative;
+    left: 42%;
+}
+
+.lesdeuxdirecteurs{
+    height: 100vh;
+    background-color: #f9f4f4;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.directeur{
+    background-color: #ffffff;
+    position: relative;
+    top: 20vh;
+    margin-bottom: 10px;    
+}
+
+
+
 .footer-log img{
     width: 100px;
     border-radius: 50%;   
