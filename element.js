@@ -140,9 +140,8 @@ var bas = ` <footer>
                     <p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> Tous droits réservés <i
-                            class="ti-heart" aria-hidden="true"></i> par <a href="https://colorlib.com"
-                            target="_blank"> Sol'Tech</a>
+                        <script>document.write(new Date().getFullYear());</script> Tous droits réservés par <a href="#"
+                            target="_blank"> DGABD</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
