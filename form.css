@@ -212,7 +212,7 @@ body{
 
 /* Media Query 600px */
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 250px)  and (max-width: 600px) {
 
     .form form{
         width: 85%;
@@ -243,12 +243,12 @@ body{
     /* Formulaire */
 
     .form{
-        width: 80%;
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
         background-color: #fff;
         background-color: #3E3E3E;
-        height: 70vh;
+        height: 75vh;
         border-radius: 2px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         z-index: 1;
@@ -267,6 +267,33 @@ body{
     }
 
     .foot{
-        transform: translateY(-1.5em);
+        transform: translate(-15px,-1.5em);
+        width: 120%;
+    }
+
+    .jaccepte{
+        font-size: 11px;
+        text-align: justify;
+        
+        
+    }
+
+    .inscrit a{
+        font-size: 11px;
+        text-align: center;
+
+    }
+
+    .connexion-title{
+        font-size: 28px;
+        margin-bottom: 50px !important;
+    }
+
+
+    /* SIGN UP RESPONSIVE FORM */
+
+    .signup{
+       
+        
     }
 }

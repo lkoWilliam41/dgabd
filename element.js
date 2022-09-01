@@ -43,7 +43,7 @@ var topbar = `<header>
                     <div class="col-xl-10 col-lg-10 col-md-10">
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
-                            <nav>
+                            <nav style="font-family: 'Montserrat'; font-size: 10px; display: flex; ; " >
                                 <ul id="navigation">
                                     <li><a href="index.html" class="menu">Accueil</a></li>
                                     <li><a href="actualite.html" class="menu">Actualité</a></li>
@@ -140,8 +140,8 @@ var bas = ` <footer>
                     <p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> Tous droits réservés par <a href="#"
-                            target="_blank"> DGABD</a>
+                        <script>document.write(new Date().getFullYear());</script> Tous droits réservés par la <a href="#"
+                            target="_blank"> DGABD - Direction Générale des Archives Nationales</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
@@ -164,4 +164,4 @@ var bas = ` <footer>
 headers.innerHTML = topbar;
 footer.innerHTML = bas;
 
-console.log('samuel')
+console.log('')
